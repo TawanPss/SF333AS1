@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NumGuess</string>
+    <string name="playAgain">Play Again</string>
+    <string name="inputNum">Your Guess</string>
+</resources>
