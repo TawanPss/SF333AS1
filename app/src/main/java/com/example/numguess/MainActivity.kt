@@ -68,14 +68,14 @@ fun Fillbox(message: String, modifier: Modifier = Modifier) {
     Column(
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally,
-        modifier = modifier.padding(top = 100.dp)
+        modifier = modifier.padding(top = 50.dp)
     ) {
         Text(
             text = message,
             fontSize = 30.sp,
             lineHeight = 50.sp,
             textAlign = TextAlign.Center,
-            modifier = modifier.padding(top = 100.dp)
+            modifier = modifier.padding(top = 50.dp)
         )
         EditNumberField(
             modifier = Modifier
